@@ -1,3 +1,4 @@
+//change value in ptr
 #include <stdio.h>
 
 int change(int *ptr);
