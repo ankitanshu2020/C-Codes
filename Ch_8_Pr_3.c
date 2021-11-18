@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-int strlen(char *st)
+int strLen(char *st)
 {
     char *ptr = st;
     int len = 0;
@@ -16,7 +16,7 @@ int strlen(char *st)
 int main()
 {
     char st[] = "Ankitanshu";
-    int l = strlen(st);
+    int l = strLen(st);
     printf("The length of the string is %d", l);
     return 0;
 }
